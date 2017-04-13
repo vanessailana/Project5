@@ -27,3 +27,21 @@ exit(1);
 return 0;
 }
 
+//print the directories out recursively
+void printdirectory(char *d)
+{
+	struct dirent *dir;
+	chdir(d);
+
+	if((dp==open(".") == NULL)) {
+      fprintf(stderr, "cannot open directory", d);
+      exit(1);
+
+	}
+
+	while((dir==readdir(dp))!=NULL) {
+
+		if(dir->)
+	}
+}
+
