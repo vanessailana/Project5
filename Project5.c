@@ -6,7 +6,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-xs
+
 void print_dir(char *d);
 
 int main(int argc, char **argv)
