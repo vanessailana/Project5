@@ -46,9 +46,13 @@ void print_dir(char *d)
       strcmp(dir->d_name,"..") == 0) continue;   
 
     if (dir->d_type & DT_DIR) {
-      //print out the directory namme 
-      printf("%s\n", dir->d_name);
-      print_dir(dir->d_name);
+      //you could print out the directory name
+     //but it is not realy necessay
+    //its not needed
+     //printf("%S\n", dir->d_name);
+     //print_dir(dir->d_name);
+ 
+     
       chdir("..");
     }
   }  
